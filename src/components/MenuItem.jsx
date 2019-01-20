@@ -21,15 +21,15 @@ const StyledButton = styled.button`
     border: none;
     outline: none;
     color: white;
-    background-color: ${({ isActive }) => (isActive ? '#292a48' : 'transparent')};
+    background-color: ${({ isActive }) => (isActive ? '#1d2032' : 'transparent')};
     cursor: pointer;
     & svg {
-        width: 2em;
+        margin-right: 10px;
         fill: white;
     }
     :hover,
     :active {
-        background-color: #292a48;
+        background-color: #1d2032;
     }
 `;
 
@@ -40,4 +40,5 @@ const StyledNumOfIssues = styled.span`
 const StyledIconTitle = styled.span`
     display: flex;
     align-items: center;
+    font-size: 14px;
 `;

@@ -40,5 +40,6 @@ const StyledNav = styled.nav`
     display: flex;
     flex-direction: column;
     min-width: 150px;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(16, 16, 34, 0.95);
+    backdrop-filter: blur(2px);
 `;

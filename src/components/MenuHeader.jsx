@@ -16,5 +16,5 @@ const StyledWrapper = styled.div`
     padding: 0 10px;
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: #101022;
 `;

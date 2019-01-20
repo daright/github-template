@@ -22,6 +22,7 @@ const StyledWrapper = styled.li`
     align-items: center;
     height: 40px;
     padding: 0 12px;
+    font-size: 15px;
     margin-bottom: 5px;
     background-color: #fff;
     border: 1px solid #e0e0e0;
